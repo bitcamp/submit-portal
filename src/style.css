@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --font-avenir: "Avenir", sans-serif;
+  --font-aleo: "Aleo", serif;
+
+  --color-bitcamp: #ff6f3f;
+  --color-midnight: #1a2e33;
+  --color-shell: #ebeae6;
+  --color-soil: hsla(227, 42%, 13%, 1);
+  --color-flame: #ff3f46;
+  --color-sky: #cbf3ff;
+}
