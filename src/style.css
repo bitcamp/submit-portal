@@ -12,46 +12,7 @@
   --color-sky: #cbf3ff;
 }
 
-.main-card {
-  display: inline-block !important;
-  background-color: var(--color-midnight) !important;
-  border: none !important;
-  border-radius: 1rem !important;
-  padding: 0 !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-.submit-btn {
-  padding: 2rem 8rem !important;
-  font-size: 2.5rem !important;
-  font-weight: 700 !important;
-  font-family: var(--font-aleo), serif;
-  letter-spacing: 0.05em;
-  border: none !important;
-  border-radius: 1rem !important;
-  background: linear-gradient(135deg, var(--color-bitcamp), var(--color-flame)) !important;
-  color: var(--color-shell) !important;
-  cursor: pointer;
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
-}
-
-.submit-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(255, 63, 70, 0.5) !important;
-}
-
-.submit-btn:active {
-  transform: translateY(0);
-}
-
 body {
-  background: linear-gradient(
-    135deg,
-    #f97345 0%,
-    #f9ad4b 55%,
-    #f5a13e 100%
-  ) !important;
+  background: linear-gradient(135deg, #f97345 0%, #f5a13e 100%) !important;
   background-attachment: fixed !important;
 }
