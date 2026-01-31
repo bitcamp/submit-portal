@@ -1,6 +1,14 @@
 <script setup></script>
 
 <template>
+  <div class="dinos-wrapper">
+    <img
+      src="../assets/img/images/bitcamp-dinos.svg"
+      width="300"
+      alt="Bitcamp"
+    />
+  </div>
+
   <div class="d-flex justify-content-center align-items-center vh-100">
     <b-card class="main-card text-center">
       <b-button class="submit-btn" variant="primary">Submit</b-button>
@@ -9,6 +17,13 @@
 </template>
 
 <style scoped>
+.dinos-wrapper {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @property --angle {
   syntax: "<angle>";
   initial-value: 0deg;
