@@ -105,7 +105,7 @@ function handleSubmit() {
         Both steps must be completed to be considered for judging. If either
         step is incomplete, your project will not be judged.
       </div>
-      <!-- Step 1 -->
+
       <div v-if="step === 1" class="step-content">
         <div class="step-header">
           <span class="step-badge">Step 1 of 2</span>
@@ -140,7 +140,6 @@ function handleSubmit() {
         </div>
       </div>
 
-      <!-- Step 2 -->
       <div v-else class="step-content">
         <div class="step-header">
           <span class="step-badge">Step 2 of 2</span>
@@ -307,7 +306,6 @@ function handleSubmit() {
 }
 
 .submit-btn:active {
-  /* transform: translateY(2px) scale(0.97); */
   box-shadow: none !important;
 }
 
@@ -336,7 +334,6 @@ function handleSubmit() {
   }
 }
 
-/* Modal */
 :deep(.submit-modal .modal-content) {
   background-color: #ebebeb;
   border: none;
@@ -369,7 +366,6 @@ function handleSubmit() {
   flex-direction: column;
 }
 
-/* Step header */
 .step-header {
   text-align: center;
   margin-bottom: 1.25rem;
@@ -404,7 +400,6 @@ function handleSubmit() {
   margin: 0;
 }
 
-/* Devpost step */
 .devpost-area {
   display: flex;
   align-items: center;
@@ -438,7 +433,6 @@ function handleSubmit() {
   color: #2e7d32;
 }
 
-/* Button row */
 .btn-row {
   display: flex;
   justify-content: flex-end;
@@ -487,7 +481,6 @@ function handleSubmit() {
   background: #ddd;
 }
 
-/* Form */
 .form-area {
   text-align: left;
 }
@@ -544,7 +537,6 @@ function handleSubmit() {
   border-color: var(--color-bitcamp);
 }
 
-/* Challenges grid */
 .challenges-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
