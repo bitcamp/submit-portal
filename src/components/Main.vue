@@ -23,7 +23,7 @@ const companyChallengeOptions = [
 ];
 
 const trackChallengeOptions = [
-  "Health & Wellness",
+  "Health & Wellnesss",
   "Education",
   "Sustainability",
   "Social Good",
